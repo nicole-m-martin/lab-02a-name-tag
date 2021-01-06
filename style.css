@@ -1,0 +1,83 @@
+/* Clear Style Settings */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f5f4f4;
+}
+
+h1,
+h2 {
+  font-family: "Dosis", sans-serif;
+}
+
+/* Text colors */
+.text-primary {
+  color: #fff;
+}
+
+.text-secondary {
+  color: #333;
+}
+
+/* Center Nametag */
+.name-tag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  margin-top: 50px;
+}
+
+/* Main container */
+#container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  width: 400px;
+}
+
+/* Boxes */
+.box-1 {
+  background-color: #e62211;
+  height: 100px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.box-2 {
+  background-color: #fff;
+  height: 150px;
+}
+
+.box-3 {
+  background-color: #e62211;
+  height: 35px;
+  width: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* Text */
+.hello {
+  padding: 5px;
+  font-size: 3rem;
+  letter-spacing: 10px;
+}
+
+.name-is {
+  word-spacing: 5px;
+  font-size: 20px;
+}
+
+.nic {
+  font-size: 4rem;
+  padding-top: 40px;
+  font-family: "Kufam", Helvetica, sans-serif;
+}
