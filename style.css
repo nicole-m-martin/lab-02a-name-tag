@@ -10,8 +10,18 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: "Dosis", sans-serif;
+}
+
+/* Center input and submit button */
+.flex-items {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
 }
 
 /* Text colors */
@@ -80,4 +90,72 @@ h2 {
   font-size: 4rem;
   padding-top: 40px;
   font-family: "Kufam", Helvetica, sans-serif;
+}
+/* Input */
+.input {
+  padding: 10px;
+}
+
+.input h3 {
+  padding: 10px;
+}
+
+.input input:focus {
+  outline-color: #333;
+}
+
+/* Button Style */
+.btn {
+  cursor: pointer;
+  margin: 5px;
+  padding: 10px 30px;
+  color: #333;
+  background-color: lightgrey;
+  border: none;
+  border-radius: 5px;
+  outline-color: #666;
+}
+
+.submit-btn:hover {
+  background-color: rgb(167, 164, 164);
+}
+
+/* Color buttons */
+.color-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.pink-btn,
+.green-btn,
+.blue-btn {
+  margin: 5px;
+}
+
+.pink-btn {
+  color: rgb(241, 102, 172);
+  outline-color: rgb(230, 169, 199);
+}
+
+.pink-btn:hover {
+  background-color: rgb(230, 169, 199);
+}
+
+.green-btn {
+  color: rgb(113, 197, 113);
+  outline-color: rgb(170, 240, 170);
+}
+
+.green-btn:hover {
+  background-color: rgb(170, 240, 170);
+}
+
+.blue-btn {
+  color: rgb(86, 194, 230);
+  outline-color: rgb(153, 217, 238);
+}
+
+.blue-btn:hover {
+  background-color: rgb(153, 217, 238);
 }

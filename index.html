@@ -12,22 +12,60 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <header class="name-tag">
       <section id="container">
         <div class="boxes">
-          <div class="box-1">
+          <div id="myBox1" class="box-1">
             <h1 class="hello text-primary">HELLO</h1>
             <h2 class="name-is text-primary">MY NAME IS</h2>
           </div>
+
           <div class="box-2">
             <div class="name">
-              <h1 class="nic text-secondary">Nicole</h1>
+              <h1 id="myName" class="nic text-secondary">Nicole</h1>
             </div>
           </div>
-          <div class="box-3"></div>
+
+          <div id="myBox3" class="box-3"></div>
         </div>
       </section>
     </header>
+
+    <main>
+      <!-- Input -->
+      <section class="flex-items">
+        <div class="input">
+          <h3>Enter Name</h3>
+          <input id="myInput" type="text" name="name" id="name" />
+        </div>
+      </section>
+
+      <!--Submit Button -->
+      <section class="flex-items">
+        <div>
+          <button id="myButton" class="btn submit-btn">Submit</button>
+        </div>
+      </section>
+
+      <!-- Color Buttons -->
+      <section>
+        <div class="color-buttons">
+          <div>
+            <button id="pinkBtn" class="btn pink-btn">Pink</button>
+          </div>
+
+          <div>
+            <button id="greenBtn" class="btn green-btn">Green</button>
+          </div>
+
+          <div>
+            <button id="blueBtn" class="btn blue-btn">Blue</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="app.js"></script>
   </body>
 </html>
